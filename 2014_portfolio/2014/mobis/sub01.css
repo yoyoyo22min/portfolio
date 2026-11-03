@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+#visual { background:url(images/sub01_bg.jpg) repeat-x; margin:0 auto; text-align:center; }
+
+
+#content { width:1000px; margin:0 auto;  padding:50px 0; font-family:"나눔바른고딕", "NanumBarunGothic", sans-serif; }
+#content #title { padding:0 0 50px; }
+#content #title h1 { float:left; }
+#content #title .location { float:right; }
+#content #title .location li { display:inline; font-size:13px; color:#a8a8a8; padding:0 0 0 5px;}
+#content #title .location li a { font-size:13px; color:#a8a8a8; }
+#content #ceoGreeting { clear:both; width:1000px; height:456px; background:url(images/sub01_con01.jpg) no-repeat; }
+#content #ceoGreeting p { font-size:18px; color:#535353; padding:30px 0 0 30px; line-height:25px; }
+#content #ceoGreeting span { font-size:18px; color:#ff6f21; }
+#content .textImg { padding:30px 0; }
+#content .ceoGreeting { font-size:20px; color:#434343; line-height:30px; padding:0 20px; }
+#content .ceoGreeting .color01 { color:#64b800; }
+#content .ceoGreeting .color02 { color:#ff5c82; }

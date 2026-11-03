@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+/* 레이아웃 */
+body { background: url(../images/bg.png) repeat; }
+#wrap { 
+	width: 1100px; max-width: 90%; padding:0 30px; margin: 0 auto; background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); box-sizing: border-box;
+}
+#footer { padding: 50px 0; text-align: center; color:#343434; border-top: 4px solid #343434; }
+.colspan{ overflow: hidden; }
+
+/* 컨테이너 */
+
+
+/* 헤더 */
+.header h1 { font: 700 50px 'Lora'; text-align: center; padding: 40px 0 10px;  letter-spacing: 1px;  }
+.header h2 { text-align: right; padding-bottom: 10px; border-bottom: 4px solid #343434;  letter-spacing: 1px; }
+.header h1::before {
+	opacity: 0;
+}
+
+/* 메뉴 */
+.nav ul { overflow: hidden; }
+.nav li {
+	float: left; width: 20%; text-align: center; 
+	font: 700 15px 'Lora'; text-transform: uppercase; letter-spacing: 2px; 
+	padding: 10px 0; border-bottom: 4px solid #343434;
+}
+.nav li:hover { 
+	background: rgba(0, 0, 0, 0.1); 
+	transition: all 0.2s ease;
+}
+.nav li:hover a { color:#999;}
+
+/* 메인 슬라이드 */
+.slider { margin-top: 20px; }
+.slider figure { position: relative; }
+.slider figcaption { 
+	position: absolute;  right: 10%; bottom: 20%;
+	background:rgba(255, 255, 255, 0.6); color:#222; 
+	padding: 3%; text-align: right;
+	font-size: 35px ; font-family: 'Nanum Pen Script', cursive;
+}
+
+
+/* 경력사항 */
+.career { padding-top: 20px; }
+.career h2 { 
+	position: relative; font: 400 25px 'Lora'; text-align: center; 
+	background: url(../images/dot.png) repeat-x center; 
+}
+.career h2 span { background:#fff; padding:0 30px; }
+.career .career_cont { overflow: hidden; }
+.career article { float: left; width: 23%; padding: 1%; }
+.career article h3 { font-size: 15px; font-weight: 900; }
+.career article em { float: right; font-weight: 400; color:#343434; }
+.career article ul { clear: both; padding-top:5px;}
+.career article li {
+	position: relative;
+	overflow: hidden; text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	max-height: 38px; /* ie */
+	font-weight: 600;
+	letter-spacing: -1px;
+	color:#343434;
+}
+.career article li:before {
+	position: absolute; top: 8px; left: 3px;
+	content: ''; background:#343434; 
+	width: 2px; height: 2px; border-radius: 50%;
+}
+
+/* 포트폴리오 */
+.portfolio { padding-top: 20px; overflow: hidden; }
+.portfolio h2 { 
+	font: 400 25px 'Lora'; text-align: center; 
+	background: url(../images/dot.png) repeat-x center ; 
+}
+.portfolio h2 span { background:#fff; padding:0 30px; }
+.portfolio .pofol_cont { overflow: hidden; }
+.portfolio article { float: left; width: 48%; margin-bottom: 30px;}
+.portfolio article:nth-child(2n) { padding-left:4%; }
+.portfolio article figure { position: relative; overflow: hidden; border:1px solid rgba(0, 0, 0, 0.2)}
+.portfolio article img { display: block; transition: all 0.3s ease; }
+.portfolio article figcaption {
+	position: absolute; top: 50%; left: 50%;
+	color: #fff; text-align: center;	
+	width: 100%; height: 100%;
+	background: rgba(0, 0, 0, 0.9); 
+	opacity: 0;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	transform: translate(350%, -50%);
+}
+.portfolio article figcaption:after {
+	content: '';	
+	position: absolute; top: 50%; left: 50%; z-index: -1;
+	transform: translate(-50%, -50%);
+}
+.portfolio article figcaption h3 { font-size: 25px; font-weight: 700; margin: 13% 0 10%; transform: translateX(50px);}
+.portfolio article figcaption ul { text-align: left; padding: 0 10% 5%; transform: translateX(100px);}
+.portfolio article figcaption li { font-size: 15px; font-weight: 500; color: #aaa; }
+.portfolio article figcaption .view {
+	display: block; text-align: center; 
+	width: 80%; margin: 0 10%; padding: 10px 0; 
+	border: 1px solid #fff; color:#fff;
+	font-size: 15px; font-weight: 700;
+}
+.portfolio article figcaption .view:hover { 
+	transition: all 0.5s ease;
+	letter-spacing: 3px;
+	background: #fff; color: #222; }
+
+.portfolio article:hover figcaption { transform: translate(-50%, -50%); opacity: 1; }
+.portfolio article:hover figcaption h3 { transform: translateX(0); transition:all 1s ease-in-out; }
+.portfolio article:hover figcaption ul { transform: translateX(0); transition:all 1s ease-in-out; }
+
+/* 스킬 */
+.skills { padding-top: 20px; width: 48%; display: inline-block; }
+.skills h2 { 
+	font: 400 25px 'Lora'; text-align: center; 
+	background: url(../images/dot.png) repeat-x center ; 
+}
+.skills h2 span { background:#fff; padding:0 30px; }
+.skills dt { font-size: 20px; font-weight: 700; padding: 10px; }
+.skills dd { border: 1px solid #aaa; }
+.skills dd em { text-align: center; background: rgba(0, 0, 0, 0.2); display: inline-block; }
+.skills dd .skill01 { width: 90%; }
+.skills dd .skill02 { width: 80%; }
+.skills dd .skill03 { width: 30%; }
+.skills dd .skill04 { width: 50%; }
+.skills dd .skill05 { width: 30%; }
+
+
+/* 프로필 */
+.about { padding-top: 20px; margin-left: 4%; width: 48%; float: right;}
+.about h2 { 
+	font: 400 25px 'Lora'; text-align: center; 
+	background: url(../images/dot.png) repeat-x center ; 
+}
+.about h2 span { background:#fff; padding:0 30px; }
+.about img { width: 100%; height:300px; }
+.about dl { width:100%; display: inline-block; }
+.about dl dt { font-size: 20px; padding: 10px; font-weight: 700; width:20%; clear: both;}
+.about dl dd { font-size: 15px; padding: 0 20px 10px; word-wrap: break-word; display: block; float:left; }
+
+
+/* 푸터 */
+.footer a { color:#222;  }
+.footer a:hover { color:#aaa; }
+
+
+
+
+
+
+
+/* 미디어쿼리 */
+/* 화면 너비 0 ~ 1200px */
+@media (max-width: 1220px){
+
+}
+
+/* 화면 너비 0 ~ 1024px */
+@media (max-width: 1024px){
+	.slider figcaption { font-size: 25px; }
+}
+
+/* 화면 너비 0 ~ 960px 타블렛 */
+@media (max-width: 960px){
+	#wrap { max-width:100%; }
+	.header h1 { font-size: 40px; }
+
+	.career article { width: 46%; padding: 1% 2%; }
+
+	.portfolio article figcaption h3 { font-size: 20px; }
+	.portfolio article figcaption li { font-size: 12px; }
+	.portfolio article figcaption .view { font-size: 12px; }
+}
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+	.header h1 { font-size: 30px; }
+	.slider figcaption { font-size: 20px; }
+	.portfolio article { width: 100%; }
+	.portfolio article:nth-child(2n) { padding-left: 0;}
+	.portfolio article figcaption h3 { font-size: 30px; }
+	.portfolio article figcaption li { font-size: 20px; }
+	.portfolio article figcaption .view { font-size: 20px; }
+
+	.skills { width: 100%;}
+	.about { width: 100%; padding-top:40px; }
+	.about_cont { padding-top: 15px; }
+}
+
+/* 화면 너비 0 ~ 600px 모바일 */
+@media (max-width: 600px){
+	.header h1 { font-size: 20px; }
+	.header h2 { border-bottom: 3px solid #343434; }
+	.nav li { width:33.3333%; font-size: 12px; padding: 5px 0; border-bottom: 3px solid #343434; }
+	.nav li:nth-child(4) { width: 50%;}
+	.nav li:nth-child(5) { width: 50%;}
+
+	.slider figcaption { font-size: 15px; }
+	.career article { width: 96%; padding: 1% 2%; }
+
+	.portfolio article figcaption h3 { margin: 10% 0 7%; }
+	.portfolio article figcaption ul { padding: 0 10% 3%; }
+}
+
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
+	.header h1 { font-size: 15px; }
+	.header h2 { font-size: 10px; }
+
+	.slider figcaption { font-size: 12px; }
+
+	.portfolio article figcaption h3 { font-size: 20px; }
+	.portfolio article figcaption li { font-size: 15px; }
+	.portfolio article figcaption .view { font-size: 15px; padding: 5px 0; }
+}
+
+
+
+/* 화면 너비 0 ~ 320px */
+@media (max-width: 320px){
+	.slider figcaption { font-size: 10px; }
+
+	.portfolio article figcaption ul { padding: 0 10%; }
+
+}
+
+
+
+
+
+
+

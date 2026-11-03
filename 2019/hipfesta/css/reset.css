@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR');
+
+
+html * {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+body {
+    font-family: "Noto Sans KR","nanum gothic",sans-serif;
+
+}
+/* http://www.google.com/fonts/earlyaccess */
+
+
+
+
+img {
+    border: 0;
+}
+
+ul, ol {
+    list-style: none;
+    
+}
+
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+    a:hover {
+        color: aqua;
+    }
+
+body, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, ol, p, button, input, form {
+    margin: 0;
+    padding: 0
+}
+
+input, textarea, select, option {
+    outline: 0;
+}
+
+.clearfix {
+    zoom: 1; /* overflow:hidden;*/
+}
+    /* float된 부모에게 클래스 지정 */
+    .clearfix:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+.hidden {
+    display:none;
+    /*position: absolute;
+    left: -10000000em;
+    top: -10000000em;*/
+}
+
+
+.center {
+    text-align:center;
+}

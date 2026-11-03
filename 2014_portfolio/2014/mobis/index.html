@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>main</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="head_foot.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+
+	$(function() { 
+		var face = $('#sns .face');
+		var faceBox = face.children('.sns-box');
+
+		var ti = $('#sns .ti');
+		var tiBox = ti.children('.sns-box');
+		
+		face.click(function() {
+			$(this).children('.sns-box').fadeIn();
+			tiBox.fadeOut();
+		});
+		
+		ti.click(function() {
+			$(this).children('.sns-box').fadeIn();
+			faceBox.fadeOut();
+		});
+	});
+
+</script>
+
+</head>
+
+<body>
+
+<div id="header">
+		<h1><a href="index.html"><img src="images/logo.jpg" alt="로고"></a></h1>
+		<ul id="topmenu">
+			<li><a href="#">SITEMAP</a></li>
+			<li>
+				<form>
+					<select name="lang">
+						<option value="한국어">Korean</option>
+						<option value="영어">English</option>
+						<option value="중국어">Chinese</option>
+						<option value="일본어">Japanese</option>
+					</select>
+				</form>
+			</li>
+			<li><a href="#">제품찾기<img style="vertical-align:middle;" src="images/search.gif" alt="제품검색"></a></li>
+		</ul>
+</div>
+
+<ul id="nav">
+	<li><a href="sub01.html">회사소개</a></li>
+	<li><a href="sub02.html">사회책임</a></li>
+	<li><a href="sub03.html">모비스PR</a></li>
+	<li><a href="#">고객지원</a></li>
+	<li><a href="#">인재채용</a></li>
+</ul>
+
+
+<div id="visual">
+		<img src="images/visual.jpg" alt="메인이미지">
+</div>
+
+
+<div id="content" class="clearfix">
+	<div id="con_left">
+		<div id="ir">
+			<h2 class="h2_con1">IR</h2>
+			<a href="#" class="more">more</a>
+			<ul>
+				<li><span class="ir_txt1">284,000</span></li>
+				<li><span class="ir_txt2">2,000 / 0.71 %</span></li>
+				<li><a href="#"><img src="images/ir.jpg" alt="최근실적발표자료 다운"></a></li>
+			</ul>
+		</div>
+
+		<div id="report">
+			<h2 class="h2_con2">REPORT</h2>
+			<ul>
+				<li>
+					<span><a href="#"><img src="images/report01.jpg" alt="사업계획서 다운"></a></span>
+					<span><a href="#"><img src="images/report02.jpg" alt="회사소개서 다운"></a></span>
+				</li>
+				<li>
+					<span><a href="#"><img src="images/report03.jpg" alt="e사보 다운"></a></span>
+					<span><a href="#"><img src="images/report04.jpg" alt="지속가능성 다운"></a></span>
+				</li>
+			</ul>
+		</div>
+		<div id="find">
+			<h2 class="h2_con2">FIND</h2>
+			<h3 class="h3_con1"><a href="#">국내판매망 바로가기</a></h3>
+			<span>현대 국내판매망을 손쉽게 찾아보실 수 있습니다.</span>
+					<form>
+						<select name="find">
+								<option value="">부품물류센터</option>
+								<option value="직영부품판매점">직영부품판매점</option>
+								<option value="부품대리점">부품대리점</option>
+								<option value="모비스카페점">모비스카페점</option>
+							
+						</select>
+						<select name="State/Province ">
+							
+								<option value="서울특별시">서울특별시</option>
+								<option value="인천광역시">인천광역시</option>
+								<option value="부산광역시">부산광역시</option>
+								<option value="대구광역시">대구광역시</option>
+								<option value="대전광역시">대전광역시</option>
+								<option value="광주광역시">광주광역시</option>
+								<option value="울산광역시">울산광역시</option>
+								<option value="경기도">경기도</option>
+								<option value="강원도">강원도</option>
+								<option value="제주특별자치도">제주특별자치도</option>
+								<option value="세종특별자치도">세종특별자치도</option>
+							
+						</select><br>
+						<select name="City">
+								<option value="">시/군/구</option>
+								<option value="강남구">강남구</option>
+								<option value="강북구">강북구</option>
+								<option value="강서구">강서구</option>
+								<option value="강동구">강동구</option>
+						</select>
+					</form>
+		</div>
+	</div>
+
+	<div id="news">
+		<div id="news01">
+			<div class="clearfix">
+			<h2 class="h2_con3">news & notice</h3>
+			<a href="#" class="more">more</a></div>
+			<h3 class="h3_con2"><a href="#">현대모비스의 사회공헌 활동, 국경을 넘어 중국에 상륙"</a></h3>
+			<p><a href="#">
+			    <span class="bullet02">현대모비스 주니어공학교실 中서 런칭   옌청초교 5학년 120명 대상 첫 수업</span>
+				<span class="bullet02">옌청공학대학 자동차엔지니어 학부 대학생 및 현대모비스 직원들 강사로 활동</span>	
+				<span class="bullet02">태양광 자동차 만들기 수업에 학생들 호응 높아 중국 지역 사회발전에 이바지</span>
+				</a>
+			</p>
+		</div>
+		<div id="news02" class="news">
+			<img src="images/news01.jpg" alt="news 현대모비스, 추석맞이 ‘사랑의 송편 나눔’ 봉사활동 사진">
+			<h3><a href="#">현대모비스, 추석맞이 ‘사랑의 송편 나눔’ 봉사활동</a></h3>
+			<p><a href="#">
+				<span>- 자매결연단체와 가구 돕기 위해 ...</span>
+				<span>- 환경미화, 목욕도우미 등 봉사활... </span>
+				</a>
+			</p>
+		</div>
+		<div id="news03" class="news">
+		<img src="images/news02.jpg" alt="news 현대모비스, 하반기 신입사원 입사식 개최">
+			<h3><a href="#">현대모비스, 하반기 신입사원 입사식 개최</a></h3>
+			<p><a href="#">
+				<span>- 기술연구소에서 신입사원 160명...</span>
+				<span>- 車 구조학 이론 및 실습, 시승프로...</span>
+				</a>
+			</p>
+		</div>
+	</div>
+
+	<div id="con_right">
+		<div id="recruit">
+			<a href="#"><img src="images/recruit.jpg" alt="채용안내바로가기"></a>
+		</div>
+		<div id="sns">
+			<h2 class="h2_con2">SNS</h2>
+			<ul class="clearfix">
+				<li class="face sns"><img class="cursor" src="images/face.jpg" alt="facebook">
+					<div class="sns-box">
+						<img src="images/sns_face.jpg" alt="페이스북 들어가기">
+					</div>				
+				</li>
+			    <li class="ti sns"><img class="cursor" src="images/ti.jpg" alt="tistory">
+					<div class="sns-box">
+						<h3><a href="#">현대모비스 여성 멘토가 전하는 취뽀 메시지</a></h3>
+						<p><a href="#">
+						지난번 취업을 준비중인 여대생을 위해 역삼 본사에서 미주 영업팀 이정하 차장님과 함께 진행하였던 여성 멘토 인터뷰, 시즌 2가 ...
+						</a></p>
+						<h3 style="margin-top:10px;"><a href="#">꽃보다 청춘</a></h3>
+						<p><a href="#">
+						현대모비스 F5 (전장시험팀 지준수 사우, 안전전자설계팀 이철우 사우, 품질정보분석팀 노병찬 사우, 멀티영업팀 김수한 사우 ...
+						</a></p>
+					</div>
+				</li>
+
+			</ul>
+		</div> <!-- //sns -->
+		<div id="customer">
+			<h2 class="h2_con2">CUSTOMER CENTER</h2>
+			<span class="center">1588-7278</span>
+			<span>(평일 9시~5시 / 토, 일, 공휴일 휴무)</span>
+
+		</div>
+	</div> <!-- //con-right -->
+</div>
+
+<div id="footerWrap">
+<div id="footer">
+	<h1><a href="index.html"><img src="images/f_logo.jpg" alt="로고"></a></h1>
+	<div id="copyright">
+		<ul id="f_nav">
+			<li><a href="#">이용약관</a></li>
+			<li class="f_nav02"><a href="#">개인정보보호취급방침</a></li>
+			<li><a href="#">이메일주소</a></li>
+			<li><a href="#">무단수집거부</a></li>
+			<li class="f_nav05"><a href="#">사이버감사실</a></li>
+		</ul>
+		<p>서울특별시 강남구 역삼1동 679-4 SI타워</p>
+    	<p>서울특별시 강남구 테헤란로 203 서울 인터내셔널 타워 </p>
+		<span class="copyright">COPYRIGHT ⓒ 2003-2013 <span class="P_copyright">HYUNDAI MOBIS.</span> ALL RIGHT RESERVED. </span>
+	</div>
+	<form>
+		<select name="Family Site">
+			<option value="Family Site">Family Site</option>
+			<option value="현대자동차그룹">현대자동차그룹</option>
+			<option value="현대자동차">현대자동차</option>
+			<option value="기아자동차">기아자동차</option>
+			<option value="기아자동차">현대제철</option>
+			<option value="기아자동차">현대하이스코</option>
+			<option value="기아자동차">현대BNG스틸</option>
+		</select>
+	</form>
+</div>
+</div>
+
+
+
+</body>
+</html>

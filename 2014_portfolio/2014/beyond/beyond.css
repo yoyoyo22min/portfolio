@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, ul, li, p{margin:0; padding:0;}
+body { font-family:"나눔고딕","nanum gothic",sans-serif; font-size:12px; }
+/* http://www.google.com/fonts/earlyaccess */
+
+img {border:0;}
+ul,ol { list-style:none }
+
+
+
+#headerWrap {background:#2e0505;}
+#header {margin:0 auto; width:1080px; height:141px; background:url(images/dolphin.png) no-repeat right bottom;}
+#header h1 {padding:32px 0 0 45px; float:left; position:relative;}
+#header form { float:left;}
+.searchBar { width:389px; height:44px; background:#d96161; border:1px solid #fff; margin:53px 0 0 67px; }
+.search {margin:53px 0 0 6px;}
+#menu {float:left; padding:60px 0 0 75px; position:relative;}
+#header li {list-style:none; display:inline; color:#b23f3f; font-size:12px; }
+#header li a {text-decoration:none; color:#b23f3f; font-size:12px;}
+
+#nav{margin:0 auto; background:#7a4560; text-align:center; padding:18px;}
+#nav ul {padding:18px 0;}
+#nav li {display:inline; color:#e7e7e7; font-size:15px; padding:0 30px;}
+#nav li a {text-decoration:none; color:#e7e7e7; font-size:15px;}
+#nav li a:hover {color:#6cefff;}
+#nav li .all {color:#ffcc00;}
+#nav li .all:hover { color:#ffa4cb; }
+/* #nav li:first-child a:hover {color:#ffa4cb;} class를 주지 않았을 경우 */
+
+#mainImg {height:484px; background:url(images/visual.jpg) no-repeat center;}
+
+
+#contentWrap {margin:0 auto; width:1080px;}
+h2 {text-align:center; padding:45px 0 30px 0;}
+
+
+#story {overflow:hidden;}
+#story li { float:left; width:333px; height:185px; position:relative;}
+#story li.img01 {background:url(images/img01.jpg) no-repeat; color:#0d88d5;}
+#story li.img02 {background:url(images/img02.jpg) no-repeat; color:#5cb1a7; width:387px; margin: 0 0 0 15px;}
+#story li.img03 {background:url(images/img03.jpg) no-repeat; color:#907f76; float:right;}
+#story li h3 { position:absolute; left:0; bottom:0;}
+
+
+#news {border-top:2px solid #8b8b8b; border-bottom:1px solid #8b8b8b; margin:83px 0 43px 0; padding:11px 0; overflow:hidden; color:#27a59a;}
+#news h4 {float:left; font-size:15px;}
+#news ul {float:left; padding:3px 0;}
+#news li {display:inline; padding:40px;}
+#news li a {text-decoration:none; color:#27a59a;}
+#news p {float:right;}
+
+
+#footWrap { height:270px; background:#9fd7d0;}
+#sitemapH1 { width:1080px; margin:0 auto; padding:10px 0;}
+#sitemapH1 > li {float:left; font-size:15px; color:#0080c0; padding:0 72px 0 10px; height:250px; border-left:1px solid #7bb9b1;}
+#sitemapH1 li a {color:#0080c0; text-decoration:none;} 
+#sitemapH1 .sitemapH2 {margin:20px 0 0 0;}
+#sitemapH1 .sitemapH2 li {font-size:11px; color:#353535; padding:0 0 3px 0;}
+#sitemapH1 .sitemapH2 li a {color:#353535; text-decoration:none;}
+
+
+
+#copyright {height:100px; background:#343434; text-align:center; color:#a6a6a6;}
+.mail {font-size:12px; padding:32px 0 5px 0;}
+.explanation {font-size:14px;}
+.explanation span {color:#fea203;} 
+

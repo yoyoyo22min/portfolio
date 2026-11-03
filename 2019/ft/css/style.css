@@ -1,0 +1,307 @@
+﻿@charset "utf-8";
+
+body{
+    margin:0 auto;
+}
+
+h2{
+    font-size:2em;
+    padding:7% 0 3%;
+    text-align: center;
+    color:#222;
+}
+
+.w1200{
+    clear:both;
+    max-width:1200px;
+    width:auto;
+    margin:0 auto;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+/* ------------- visual slide ------------- */
+* {box-sizing: border-box}
+.mySlides:nth-child(2) {display: none;}
+.mySlides:nth-child(3) {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    border-top:3px solid #666;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next, .prev:hover, .next:hover {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    color: #fff;
+    transition: 0.6s ease;
+    user-select: none;
+}
+/* Position the "prev button" to the left */
+.prev{
+    left:1%;
+    border-radius: 0 3px 3px 0;  
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 1%;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom:3%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+/* ------------- con01wrap ------------- */
+
+.con01wrap{
+  background:#ebebeb;
+  position: relative;
+  margin:0 auto;    
+}
+
+.con01wrap > .w1200 > div{
+  width:5%;
+  display:block;
+  margin:0 20px;
+}
+
+.con01wrap ul{
+  float:left;
+  width:80%;
+  margin:0 10% 4%;
+}
+
+.con01wrap ul li{
+  background:#fff;
+  box-shadow: rgba(0,0,0,0.8) 0 5px 5px 0;
+  max-width:31.3%;
+  margin:5% 1%;
+  width:auto;
+  float:left;
+}
+
+.con01wrap ul li h3{
+  padding:3% 0 0 5%;
+  font-size: 1.4em; 
+}
+.con01wrap ul li p{
+  padding:5%; 
+}
+.con01wrap ul li span a{
+  float:right;
+  padding:0 5% 3% 0; 
+  font-size:0.8em;
+}
+
+
+
+/* Next & previous buttons */
+.c-prev, .c-next, .c-prev:hover, .c-next:hover {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+/* Position the "prev button" to the left */
+.c-prev{
+    border-radius: 0 3px 3px 0;  
+}
+
+/* Position the "next button" to the right */
+.c-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  text-align:right;
+}
+
+.c-prev i, .c-next i, .c-prev:hover i, .c-next:hover i{
+  font-size:2em;
+  color:#aaa;
+}
+
+
+@media screen and (min-width: 700px){
+    .con01 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .slide-con{
+      flex-basis: 33%;
+    }
+
+}
+
+
+
+
+/* ------------- con02wrap ------------- */
+
+.con02wrap{  
+  margin:0 auto;
+  text-align: center;
+  background: url(../images/con02_bg.jpg) no-repeat;
+  padding-bottom:7%;
+}
+
+.con02wrap h2{
+  color:#fff;
+}
+
+
+.con02wrap .con02 { 
+  display:inline-block;
+  width:100%;
+  padding:5% 5% 0;
+}
+
+.con02wrap .con02 > div {
+    width:25%;
+    position: relative;
+    float:left;
+}
+
+.circle {
+    display: block;
+    background:url(../images/circle.png) no-repeat center center;
+    height:auto;
+    line-height: 150px;
+    color:#f00;
+    font-size:2em;
+    font-weight: 600;
+}
+
+.con02-h3{
+  width:100%;
+  color:#fff;
+  font-size:1.5em;
+  font-weight: 600;
+  text-align: center;
+  padding-top:10%;
+}
+
+
+@media screen and (min-width:700px) {
+    .con02 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .con02box {
+        flex-basis:25%;
+    }
+}
+
+
+
+
+
+
+
+/* ------------- con03wrap ------------- */
+
+.swiper-container{  
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+  padding-bottom:7%;
+}
+
+.con03wrap ul{
+  position: relative;
+  width:100%;  
+  max-height: 464px;
+  height: auto;
+  overflow: hidden;
+  text-align:center;
+  display:inline-block;
+  margin:2% 0 7%;
+}
+
+.con03wrap ul li{  
+    position: relative;
+    float:left;
+    margin:0 3%;
+}
+
+
+.con03wrap h3{
+  position: absolute;
+  width:100%;
+  top:7%;
+  color:#fff;
+  font-size:1.7em;
+  text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

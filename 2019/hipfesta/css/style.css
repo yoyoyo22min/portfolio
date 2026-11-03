@@ -1,0 +1,342 @@
+﻿@charset "utf-8";
+
+body {
+    background: #000;
+    color: #ffffff;
+    letter-spacing: 1px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+/*  left_wrap css   */
+#left_fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background: rgba(256, 256, 256, 0.2);
+    z-index: 10000000;
+}
+header {
+    position: relative;
+    margin: 15%;
+    text-align: center;
+}
+header img{
+    max-width:100%;
+}
+header ul{
+
+    position:absolute;
+    width:85%;
+    margin-top:35%;
+}
+header ul li{
+    margin:15%;
+    font-weight:600;
+    font-size:1.2vw;
+}
+footer {
+    width: 80%;
+    position:absolute;
+    bottom:3%;
+    font-size: 0.9vw;
+    padding:10%;
+    
+}
+footer ul li {
+    padding-bottom:5%;
+}
+footer .copyright {   
+    width:100%;
+    font-weight: 100;
+    padding-top: 20px;
+    font-size: 0.7vw;
+}
+
+
+/*  common css   */
+.basic {
+    padding-left: 15%;
+    text-align: center;
+    position: fixed;
+    min-width: 85%;
+    height: 100%;
+    background: url(../images/bg.png) repeat;
+}
+.conleft {
+    float: left;
+    width: 30%;
+    padding-left:15%;
+}
+.conright {
+    float: right;
+    width: 30%;
+    padding-right:15%;
+}
+.concenter {
+    width: 70%;
+    padding:0 15%;
+}
+.h2menu {
+    width:100%;
+    text-align: left;
+    font-size:2.5vw;
+    padding-bottom:2%;
+}
+.main, .hipfesta, .lineup, .timetable, .ticket, .sns, .sponsor {
+    position:relative;
+    margin: 5% auto;
+    height: 80%;
+
+}
+
+.main > div, .hipfesta > div, .lineup > div, .timetable > div, .ticket > div, .sns > div, .sponsor > div {
+    position: relative;
+}
+
+/*.main::after, .hipfesta::after, .lineup::after, .timetable::after, .ticket::after, .sns::after, .sponsor::after {
+    clear:both;
+}*/
+
+
+/*  main css   */
+#main {
+    /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+    background-attachment: fixed;
+    background-size: cover;
+    }
+/* The only rule that matters */
+#video-background {
+    /*  making the video fullscreen  */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+.main {
+    font-size: 1.5em;
+    padding-left: 15%;
+    text-align: center;
+    position: fixed;
+    min-width: 85%;
+}
+.main img{
+    max-width:510px;
+    width:auto;
+    animation: rotate 2s linear 1;
+}
+@keyframes rotate {
+    from, to{
+        animation-timing-function:ease-out;
+    }
+    0% {
+        transform: rotate(0deg) scale(0.2,0.2);
+    }
+
+    100% {
+        transform: rotate(720deg) scale(1,1);
+    }
+}
+.place {
+    padding: 40px 0 10px;
+    font-size: 50px;
+    font-family: 'Showcard Gothic', sans-serif;
+}
+
+
+/* hipfesta css*/
+
+.hipfesta img {
+    max-width:100%;
+    margin-top:3%;
+
+}
+.hipfesta h3 {
+    color: aqua;
+    font-size: 1.8vw;
+    padding: 30% 0 15%;
+    margin-left:-10%;
+}
+.hipfesta p {
+    text-align: center;
+    font-size: 1.2vw;
+    line-height: 250%;
+    margin-left:-10%;
+}
+
+
+/* line up css*/
+
+.lineup p.scroll{
+    margin:0 auto;
+    position:fixed;
+    bottom:50%;
+    right:39%;
+    font-size:2vw;
+}
+
+.artimg {
+    display: block;
+    height: 90%;
+    overflow: scroll;
+    -ms-overflow-style: none;/*익스플로어 스크롤바 없앰*/
+}
+.artimg::-webkit-scrollbar {/*크롬 스크롤바 없앰*/
+    display: none;
+}
+.artimg li {
+    display: inline;
+}
+.artimg li img {
+    width: 22%;
+    padding: 0 1% 1% 0;
+}
+.scroll{
+    position: relative;
+    background:#f00;
+    text-align: center;
+    font-size: 9px;
+
+
+}
+
+
+/* time table css */
+
+.timetable ul{
+    margin-top:12%;
+}
+.timetable li {
+    text-align: left;
+    margin: 0 35% 1% 35%;
+    width: 40%;
+    font-size: 1.3vw;
+    border-bottom: 1px solid #fff;
+}
+.timetable li:nth-child(2n) {
+    color:#aaa;
+    border-bottom: 1px solid #aaa;
+}
+.timetable li:hover{
+    color:aqua;
+    
+}
+.timetable span {
+    margin-right:5%;
+}
+
+
+/* ticket css*/
+
+.ticket h3 {
+    padding: 20% 0 7%;
+    font-size: 2.5vw;
+}
+.ticket li{
+    font-size:1.5vw;
+    padding-bottom:5%;
+}
+.ticket span {
+    padding-left:10%;
+}
+.ticket a {
+    display:block;
+    margin:5% auto;
+    color:#fff;
+    font-size:1.5vw;
+    width:50%;
+    padding:3% 7%;
+    border:1px solid #fff;
+}
+.ticket a:hover{
+    color:aqua;
+    border:1px solid aqua;
+}
+.ticket img{
+    max-width:100%;
+}
+
+/* sns css */
+.sns p{
+    text-align:center;
+}
+.sns a{
+    margin:0 5% 5% 0;
+}
+.sns a:hover{
+    opacity:0.5;
+}
+
+.snscon {
+    display: table;
+    margin-top:1%;
+}
+.Bscroll {
+    display: table-cell;
+    text-align: center;
+    width: 3%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    opacity: 0.3;
+}
+.snsimg {
+    height:100%;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap; /* 줄바꿈 금지(이미지를 한줄로) */
+    width: 95%;
+}
+.snsimg li {
+    display:inline;
+}
+.snsimg li a img {
+    width:30%;
+    padding:1%;
+}
+
+
+/* sponsor css*/
+
+.sponsor {
+    
+}
+.sponsor ul {
+    padding-top:2%;
+    background:rgba(256,256,256,0.7);
+    width: 100%;
+    height: 650px;
+    line-height:750px;
+}
+.sponsor li {
+    display:inline;
+    max-width:20%;
+}
+.sponsor li img {
+    width:10%;
+    padding:0 3%;
+}
+.sponsor li img:hover{
+    transform:scale(2,2);
+}
+
+
+
+
+
+
+
+
+
+
+
+

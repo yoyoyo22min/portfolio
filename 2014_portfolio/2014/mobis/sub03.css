@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+#visual { background:url(images/sub03-visual.jpg) no-repeat center center; margin:0 auto; text-align:center; height:265px;}
+
+
+#content { width:1000px; margin:0 auto;  padding:50px 0; font-family:"나눔바른고딕", "NanumBarunGothic", sans-serif; }
+#content #title { padding:0 0 50px; }
+#content #title h1 { float:left; }
+#content #title .location { float:right; }
+#content #title .location li { display:inline; font-size:13px; color:#a8a8a8; padding:0 0 0 5px;}
+#content #title .location li a { font-size:13px; color:#a8a8a8; }
+#content .videoWrap { display:block; width:1000px; height:255px; margin:50px 0; clear:both; }
+#content .videoWrap .video { width:420px; float:left; }
+#content .videoWrap .video img { margin-top:20px;}
+#content .videoWrap .videoEx { float:right; border-left:2px solid #c62020; width:558px; padding:20px 0 20px 20px; margin:20px 0; }
+#content .videoWrap .videoEx h2 { font-size:30px; color:#2559d0; }
+#content .videoWrap .videoEx .text01 { display:block; font-size:20px; color:#222; padding:25px 0; }
+#content .videoWrap .videoEx .text02 { display:block; font-size:18px; color:#6a6a6a; line-height:25px; }
+#content .pageNumber { text-align:center; padding:0 0 20px;}
+#content .pageNumber li { display:inline; color:#222; font-size:15px; padding:0 5px;}

@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/fix_style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>  
+    <script src="js/index.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>FT Homepage</title>
+</head>
+
+<body>
+           
+<!--  header start  -->
+    <header>
+
+        <div class="quicmenu">
+            <ul class="quic01">
+                <li><a href="#">서울캠퍼스</a><span>|</span></li>
+                <li><a href="#">인천캠퍼스</a><span>|</span></li>
+                <li><a href="#">부산캠퍼스</a></li>
+            </ul>
+            <ul class="quic02">
+                <li><a href="#">Login</a><span>|</span></li>
+                <li><a href="#">Join</a><span>|</span></li>
+                <li><a href="#">Site map</a><span>|</span></li>
+                <li><a href="#">Intranet</a></li>
+            </ul>
+        </div><!--  header 1단 quick menu end  -->
+
+        <div class="header">
+            <h1><a href="#"><img src="images/logo.png" alt="로고"></a><span class="hidden">홈페이지 메인</span></h1>
+            <form class="search">
+                <fieldset>
+                    <input class="searchbar" type="search" name="search_bar">
+                    <button><i class="fas fa-search"></i></button>
+                </fieldset>
+            </form>
+            <a id="menu-toggle" class="button dark" href="#"><i class="fas fa-bars"></i></a>
+        </div><!--  header 2단 logo & searchBar end  -->       
+        
+        <nav id="navigation">            
+            <ul id="main-menu">
+                <li>
+                    <form class="m-search">
+                        <fieldset>
+                            <input class="searchbar" type="search" name="search_bar">
+                            <button><i class="fas fa-search"></i></button>
+                        </fieldset>
+                    </form>
+                </li>
+                <li class="current-menu-item parent m-quic01">
+                        <a href="#">연희캠퍼스</a>
+                        <a href="#">부평캠퍼스</a>
+                        <a href="#">검단캠퍼스</a>
+                </li>
+                <li class="current-menu-item parent m-quic02 clearfix">
+                        <a href="#">Login</a>
+                        <a href="#">Join</a>
+                        <a href="#">Site map</a>
+                        <a href="#">Intranet</a>                    
+                </li> 
+                <li class="current-menu-item parent">
+                    <a href="#">학교소개</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">MENU A</a></li>
+                        <li><a href="#">MENU B</a></li>
+                    </ul>
+                </li>
+                <li class="current-menu-item parent">
+                    <a href="#">입학안내</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">MENU A</a></li>
+                        <li><a href="#">MENU B</a></li>
+                        <li><a href="#">MENU C</a></li>
+                    </ul>
+                </li>
+                <li class="current-menu-item parent">
+                    <a href="#">교육과정</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">MENU A</a></li>
+                        <li><a href="#">MENU B</a></li>
+                        <li><a href="#">MENU C</a></li>
+                        <li><a href="#">MENU D</a></li>
+                    </ul>
+                </li>
+                <li class="current-menu-item parent">
+                    <a href="#">모집교육</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">MENU A</a></li>
+                        <li><a href="#">MENU B</a></li>
+                        <li><a href="#">MENU C</a></li>
+                        <li><a href="#">MENU D</a></li>
+                        <li><a href="#">MENU E</a></li>
+                    </ul>
+                </li>
+                <li class="current-menu-item parent">
+                    <a href="#">취업정보</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">MENU A</a></li>
+                        <li><a href="#">MENU B</a></li>
+                    </ul>
+                </li>
+                <li class="current-menu-item parent">
+                    <a href="#">커뮤니티</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">MENU A</a></li>
+                        <li><a href="#">MENU B</a></li>
+                        <li><a href="#">MENU C</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav><!--  header 3단 gbb nav end  -->
+
+        <div class="slideshow-container  clearfix">
+            <div class="mySlides fade">
+                  <img src="images/visual01.jpg" alt="메인 비쥬얼 1" style="width:100%">
+                  <div class="numbertext">1 / 3</div>
+            </div>                
+            <div class="mySlides fade">
+                  <img src="images/visual02.jpg" alt="메인 비쥬얼 2" style="width:100%">
+                  <div class="numbertext">2 / 3</div>
+            </div>                
+            <div class="mySlides fade">
+                  <img src="images/visual03.jpg" alt="메인 비쥬얼 3" style="width:100%">
+                  <div class="numbertext">3 / 3</div>
+            </div>                
+            <a class="prev" onclick="plusSlides(-1)"><img src="images/prev.png" alt="이전"></a>
+            <a class="next" onclick="plusSlides(1)"><img src="images/next.png" alt="다음"></a>                         
+        </div><!--visual slide end--> 
+
+    </header><!--  header end  -->
+
+<!--  모집훈련분야 start   -->
+    <div class="con01wrap clearfix">
+        <div class="w1200">
+            <h2>모집훈련분야</h2>
+            <div class="c-prev"><a href="#"><i class="fas fa-chevron-left"></i></a></div>
+            <ul class="con01">
+                <li class="slide-con">
+                    <img src="images/program01.jpg" alt=""><!--출처 http://brand1010.co.kr/?p=2455-->
+                    <h3>UI/UX 디자인</h3>
+                    <p>도면정보를 도출하고 형상 설계 오류를 사전에 검증하고 수정하여 제품을 설계할 수 있습니다.</p>
+                    <span><a href="#">MORE</a></span>
+                </li>
+                <li class="slide-con">
+                    <img src="images/program02.jpg" alt=""><!--출처 https://all3dp.com/1/top-3d-printing-companies-3d-printer-manufacturers/-->
+                    <h3>3D 프린팅</h3>
+                    <p>도면정보를 도출하고 형상 설계 오류를 사전에 검증하고 수정하여 제품을 설계할 수 있습니다.</p>
+                    <span><a href="#">MORE</a></span>
+                </li>
+                <li class="slide-con">
+                    <img src="images/program03.jpg" alt=""><!--출처 https://m.post.naver.com/viewer/postView.nhn?volumeNo=6943141&memberNo=28419111-->
+                    <h3>세무회계</h3>
+                    <p>도면정보를 도출하고 형상 설계 오류를 사전에 검증하고 수정하여 제품을 설계할 수 있습니다.</p>
+                    <span><a href="#">MORE</a></span>
+                </li>                     
+            </ul>
+            <div class="c-next"><a href="#"><i class="fas fa-chevron-right"></i></a></div>
+        </div>
+
+    </div><!--  모집훈련분야 end  -->
+
+<!--  취업현황 start  -->
+    <div class="con02wrap  clearfix">
+        <div class="w1200">
+            <h2>취업현황</h2>
+            <div class="con02">
+                <div class="con02box"><div class="circle">72.1</div><h3 class="con02-h3">수료율</h3></div>
+                <div class="con02box"><div class="circle">85.7</div><h3 class="con02-h3">취업율</h3></div>
+                <div class="con02box"><div class="circle">1등급</div><h3 class="con02-h3">우수기관선정</h3></div>
+                <div class="con02box"><div class="circle">78.4</div><h3 class="con02-h3">고용유지율</h3></div>
+            </div>
+        </div>
+    </div>  <!--  취업현황 end    -->
+
+<!--    portfolio start   -->
+    <div class="con03wrap  clearfix swiper-container">
+        <h2>PORTFOLIO</h2>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="images/pofol01.jpg" alt="운동화 3D 프린팅"><h3>3D 프린팅</h3></a></div><!--출처: https://www.pinterest.co.kr/pin/543457880030046734/ -->
+            <div class="swiper-slide"><a href="#"><img src="images/pofol02.jpg" alt="키세스 홈페이지 리뉴얼"><h3>웹디자인</h3></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/pofol03.jpg" alt="해골 3D 프린팅"><h3>3D 프린팅</h3></a></div><!--출처: https://www.pinterest.co.kr/pin/518617713309647454/-->
+            <div class="swiper-slide"><a href="#"><img src="images/pofol04.jpg" alt="도이터 홈페이지 리뉴얼"><h3>웹디자인</h3></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/pofol01.jpg" alt="운동화 3D 프린팅"><h3>3D 프린팅</h3></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/pofol02.jpg" alt="키세스 홈페이지 리뉴얼"><h3>웹디자인</h3></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/pofol03.jpg" alt="해골 3D 프린팅"><h3>3D 프린팅</h3></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/pofol04.jpg" alt="도이터 홈페이지 리뉴얼"><h3>웹디자인</h3></a></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>  <!--    portfolio end   -->      
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            },
+        });
+    </script>
+
+
+<!--  footer start  -->
+    <footer>
+        <div class="w1200 footer">
+            <ul>
+                <li><a href="#">Login</a><span>|</span></li>
+                <li><a href="#">Join</a><span>|</span></li>
+                <li><a href="#">Site map</a><span>|</span></li>
+                <li><a href="#">Intranet</a></li>
+            </ul>
+            <h1><a href="#"><img src="images/f_logo.png"  alt="로고"><span class="hidden">홈페이지 메인</span></a></h1>
+            <p>
+                <!--개인 포트폴리오 사이트 입니다.-->
+                Copyright &copy; 2019 미래직업전문학교 All rights Reserved.
+            </p>
+        </div>
+    </footer>   <!--  footer end  -->
+
+<!--  right fix menu slide start  -->
+    <div  class="cbp-spmenu-push right_fix">
+        <div class="right_fix_wrap cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+            <div class="container">
+                <div class="main">
+                    <section class="vertical-text">
+						<h3 class="hidden">사이드 퀵메뉴</h3>
+                        <button id="showRight">Quick Menu&nbsp;&nbsp;<span>&dtrif;</span></button>
+                    </section>
+                    <!--<button id="topBtn">TOP</button>-->
+                </div>
+            </div>
+            <ul class="right_fix_menu">
+                <li><a href="#">설문조사</a></li>
+                <li><a href="#">NCS평가</a></li>
+                <li><a href="#">시험응시</a></li>
+                <li><a href="#" style="color:yellow">카톡상담</a></li>
+            </ul>
+            <div class="best_banner">
+                <img src="images/best_banner.jpg" alt="최우수 훈련기관 배너"/>
+            </div>
+        </div>
+               
+        <script>
+            var
+            menuRight = document.getElementById('cbp-spmenu-s2'),
+            showRight = document.getElementById('showRight'),
+            body = document.body;
+
+            showRight.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(menuRight, 'cbp-spmenu-open');
+            disableOther('showRight');
+            };            
+        </script>       
+    </div>  <!--  right fix menu slide end  -->
+
+
+    <div class="topBtn">
+        <button id="topBtn">TOP</button>    
+    </div>
+    <script>
+        $(function () {
+            // 버튼 클릭시 
+            $("#topBtn").click(function () {
+                $('html, body').animate({
+                    scrollTop: 0 // 0 까지 animation 이동합니다. 
+                }, 400); // 속도 400 
+                return false;
+            });
+        });
+    </script>
+
+</body>
+
+
+</html>

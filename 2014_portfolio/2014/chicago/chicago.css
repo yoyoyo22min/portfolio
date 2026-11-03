@@ -1,0 +1,78 @@
+ @charset "utf-8";
+  
+body, h1, h2, h3, ul, li, p, span{margin:0; padding:0;}
+img {border:0;}
+table {border-collapse:collapse } 
+
+/*header*/
+
+#headerWrap {background-color:#2e2a2b; height:80px; border-bottom:1px solid #444041; }
+#header {width:1000px; margin:0 auto; height:80px;}
+#header h1 {float:left; padding:15px 10px;}
+#menu {padding:30px 0; float:right;}
+#menu form {float:right; padding:0 20px 0 0; height:13px;}
+#menu li {display:inline; padding:0 10px; }
+#menu li a {color:#7d8168; font:bold 10px "나눔고딕","nanum gothic","san-serif"; text-decoration:none;}
+#menu li a:hover {color:#a3dcd3;}
+
+
+#nav {background-color:#2e2a2b; text-align:center; padding:20px;}
+#nav li {display:inline; padding:0 20px; }
+#nav li a {color:#d0d2aa; font:13px "나눔고딕","nanum gothic","san-serif"; text-decoration:none;}
+#nav li a:hover {color:#a3dcd3;}
+
+
+#Img {margin:0 auto; text-align:center; background-color:#0a0809; height:344px;}
+
+
+/*content*/
+
+#contentWrap {background-color:#eee; height:1285px;}
+#video {width:1000px; height:210px; margin:0 auto;}
+#videoCon {width:1000px; height:370px; margin:0 auto; background-color:#e8e8e8;}
+#imgMap {width:1000px; height:425px; margin:0 auto; background:url(images/banner.jpg) no-repeat bottom;}
+#photo {width:1000px; height:280px; margin:0 auto; ;}
+
+
+/*con1*/
+.title1 {color:#353535; font:20px "나눔고딕","nanum gothic","san-serif"; padding:20px 0 5px 0; border-bottom:1px solid #fe0000;}
+#video ul {text-align:center; padding:20px 0 0 0;}
+#video li {display:inline; padding:0 5px; }
+
+
+/*con2*/
+#interview {width:560px; height:340px; margin:10px 0 0 10px; float:left;}
+#schedule {width:400px; height:340px; margin:10px 10px 0 0; overflow:auto; float:right;}
+#schedule table caption {color:#353535; font:15px "나눔고딕","nanum gothic","san-serif"; padding:0 0 3px 0;}
+#schedule th {background-color:#800000; width:50px; height:17px; color:#fff; font:15px "나눔고딕","nanum gothic","san-serif";}
+#schedule td {background-color:#fff; height:50px; color:#353535; font:11px "나눔고딕","nanum gothic","san-serif"; border:1px solid #d8d8d8;}
+#schedule .purple {background-color:#ecd6e3; color:#b23078;}
+.boldBlue {color:#20459e; font:13px "나눔고딕","nanum gothic","san-serif"; padding:3px;}
+.borderLeft {color:#353535; font:13px "나눔고딕","nanum gothic","san-serif"; border-left:3px solid #20459e; padding:3px;}
+
+
+/*con3*/
+
+
+/*con4*/
+.title2 {color:#353535; font:20px "나눔고딕","nanum gothic","san-serif"; padding:10px 0 5px 0; border-bottom:1px solid #fe0000;}
+#photo ul {text-align:center; padding:25px 0 0 0;}
+#photo li {display:inline; padding:0 5px; }
+
+
+/*footer*/
+
+#footer {background-color:#2e2a2b; height:38px; border-top:2px solid #b61616; border-bottom:1px solid #444041;}
+#footerMenu {width:1000px; margin:0 auto; padding:10px 0;}
+#footer ul {text-align:center;}
+#footerMenu li {display:inline; padding:0 20px; }
+#footerMenu li a {color:#d0d2aa; font:12px "나눔고딕","nanum gothic","san-serif"; text-decoration:none;}
+#footerMenu li a:hover {color:#ff8080;}
+
+
+#footerCopy {background-color:#2e2a2b; height:161px; text-align:center;}
+.mail {color:#e8e8e8; font:italic 11px "나눔고딕","nanum gothic","san-serif"; padding:50px 0 0 0;}
+.copyright {color:#e8e8e8; font:12px "나눔고딕","nanum gothic","san-serif";}
+.explanation {color:#fec518; font:13px "맑은고딕","malgun gothic","san-serif";}
+
+

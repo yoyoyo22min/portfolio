@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* font */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/css?family=Viga);
+
+html * {margin:0; padding:0;}
+body { font-family:"나눔고딕","nanum gothic",sans-serif; font-size:12px; }
+/* http://www.google.com/fonts/earlyaccess */
+
+
+
+
+img {border:0;}
+ul,ol { list-style:none }
+p { text-align:justify; }
+a { text-decoration:none; color:#000; }
+a:hover { color:#328bc0; }
+body,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,ol,p,button,input,form { margin:0;padding:0 }
+input,textarea, select, option { outline:0; }
+
+.clearfix { zoom:1;/* overflow:hidden;*/ }  /* float된 부모에게 클래스 지정 */
+.clearfix:after { content:''; display:block; clear:both; }

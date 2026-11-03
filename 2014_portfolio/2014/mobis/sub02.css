@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+#visual { background:url(images/sub02-visual.jpg) no-repeat center center; margin:0 auto; text-align:center; height:265px; }
+
+
+#content { width:1000px; margin:0 auto;  padding:50px 0; font-family:"나눔바른고딕", "NanumBarunGothic", sans-serif; }
+#content #title { padding:0 0 50px; }
+#content #title h1 { float:left; }
+#content #title .location { float:right; }
+#content #title .location li { display:inline; font-size:13px; color:#a8a8a8; padding:0 0 0 5px;}
+#content #title .location li a { font-size:13px; color:#a8a8a8; }
+#content #summary { clear:both; }
+#content #summary p { font-size:18px; color:#222222; padding:5px 30px 20px 30px; line-height:25px; }
+#content #summary .text01 { font-size:14px; color:#444; padding:0 30px; }
+#content #summary .text02 { display:block; font-size:27px; color:#2192bc; padding:5px 30px; }
+#content #summary .text03 { display:block; font-size:27px; color:#ed3c36; padding:5px 30px; }
+#content #summary img { padding:50px 0; }
+
+#content .fly { left:-10000000000000000000px; }

@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/menu.js"></script>
+    
+    <title>HIPFEST</title>
+
+</head>
+<body>
+
+
+    <div id="left_fix">
+
+        <header>
+            <h1><a href="index.html"><img src="images/logo.png" alt="힙페스타 로고"/></a></h1>
+            <nav>
+                <ul>
+                    <li><a id="Bhipfesta" href="#hipfesta">HIPFESTA</a></li>
+                    <li><a id="Blineup" href="#lineup">Line up</a></li>
+                    <li><a id="Btimetable" href="#timetable">Time table</a></li>
+                    <li><a id="Bticket" href="#ticket">Ticket</a></li>
+                    <li><a id="Bsns" href="#sns">SNS</a></li>
+                    <li><a id="Bsponsor" href="#sponsor">Sponsor</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <footer>
+            <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+            </ul>
+            <p class="copyright">&copy; 2018 HIPFESTA ALL Rights Reserved.</p>
+        </footer>
+
+    </div>  <!-- id="left_fix" end -->
+
+
+
+    <div id="main">
+        <video autoplay loop id="video-background" muted playsinline>
+            <source src="video/nafla.mp4" type="video/mp4">
+        </video>
+        <div class="main">
+            <h1><img src="images/main_logo.png" alt="힙페스타 로고 강조"/></h1>
+            <h2 class="place">GOCHEOK SKY DOME</h2>
+            2018.12.15.SAT
+        </div>
+    </div>  <!-- 메인 end -->
+
+
+    <div id="hipfesta" class="basic hidden">
+        <div class="conleft hipfesta">
+            <h2 class="h2menu">HIPFESTA</h2>
+            <p>
+                <img src="images/poster.jpg" alt="힙페스타 공연 포스터" />
+            </p>
+        </div>
+        <div class="conright clearfix hipfesta">
+            <p>
+                화려한 무대에서 펼쳐지는 세계 최정상 퍼포먼스<br>
+                그리고 국내 TOP HIPHOP ARTIST와<br />
+                트렌디한 ARTISTS의 공연<br /><br />
+                Hip하게 듣고 느끼고 즐기는<br />
+                그리고 인생샷을 남길 오감을 자극하는 화려한 포토존
+            </p>
+        </div>
+    </div>  <!-- HIPFESTA end -->
+
+
+    <div id="lineup" class="basic hidden">
+        <div class="concenter lineup">
+            <h2 class="h2menu">Line up</h2>
+            <ul class="artimg">
+                <li><a href="#"><img src="images/art_01.png" alt="CRUSH" /></a></li>
+                <li><a href="#"><img src="images/art_02.png" alt="DEAN" /></a></li>
+                <li><a href="#"><img src="images/art_03.png" alt="SIMON DOMINIC" /></a></li>
+                <li><a href="#"><img src="images/art_04.png" alt="GRAY" /></a></li>
+                <li><a href="#"><img src="images/art_05.png" alt="DYNAMIC DUO" /></a></li>
+                <li><a href="#"><img src="images/art_06.png" alt="LOCO" /></a></li>
+                <li><a href="#"><img src="images/art_07.png" alt="ZICO" /></a></li>
+                <li><a href="#"><img src="images/art_08.png" alt="JAY PARK" /></a></li>
+                <li><a href="#"><img src="images/art_09.png" alt="WOO WON JAE" /></a></li>
+                <li><a href="#"><img src="images/art_10.png" alt="SIK-K" /></a></li>
+                <li><a href="#"><img src="images/art_11.png" alt="PEMENOCO" /></a></li>
+                <li><a href="#"><img src="images/art_12.png" alt="BABYLON" /></a></li>
+            </ul><!--이미지 클릭하면 전체화면 흐릿하고 크게 보여주기 
+            <p class="scroll"><img src="images/scroll.png" alt="" ><br>scrolling</p>  -->
+        </div>  <!-- Line up end -->
+    </div>
+
+    <div id="timetable" class="basic hidden">
+        <div class="concenter timetable">
+            <h2 class="h2menu">Time table</h2>
+            <ul>
+                <li><span>15:00 - 15:30</span>BABYLON</li>
+                <li><span>15:40 - 16:10</span>SIK-K</li>
+                <li><span>16:20 - 16:50</span>PEMENOCO</li>
+                <li><span>17:00 - 17:30</span>WOO WON JAE</li>
+                <li><span>17:40 - 18:10</span>DYNAMIC DUO</li>
+                <li><span>18:20 - 18:50</span>DEAN</li>
+                <li><span>19:00 - 19:30</span>CRUSH</li>
+                <li><span>19:40 - 20:10</span>ZICO</li>
+                <li><span>20:20 - 20:50</span>LOCO</li>
+                <li><span>21:00 - 21:30</span>GRAY</li>
+                <li><span>21:40 - 22:10</span>JAY PARK</li>
+                <li><span>22:20 - 22:50</span>SIMON DOMINIC</li>
+            </ul>
+        </div>
+    </div>  <!-- Time table end -->
+
+
+    <div id="ticket" class="basic hidden">
+        <div class="conleft ticket">
+            <h2 class="h2menu">TICKET</h2>
+            <h3>Price</h3>
+            <ul>
+                <li>STANDING<span>99,000원</span></li>
+                <li>2 FLOOR<span>99,000원</span></li>
+                <li>3 FLOOR<span>79,000원</span></li>
+            </ul>
+            <a href="http://ticket.interpark.com/">Ticket Buying</a>
+        </div>
+        <div class="conright ticket">
+            <h3>Area</h3>
+            <img src="images/ticket_area.jpg" alt="좌석별 구역" />
+        </div>
+    </div>  <!-- Ticket end -->
+
+    <script>
+        function snsimg(n) {
+            $('.snsimg').scrollLeft($('.snsimg').scrollLeft() + n);
+        }
+    </script>
+    <div id="sns" class="basic hidden">
+        <div class="concenter sns">
+            <h2 class="h2menu">SNS</h2>
+            <p>
+                <a href="https://www.instagram.com/?hl=ko"><img src="images/instagram.png" alt="인스타그램 바로가기"/></a>
+                <a href="https://www.facebook.com/"><img src="images/facebook.png"  alt="페이스북 바로가기"/></a>
+            </p>
+            <div class="snscon">
+                <span class="Bscroll">
+                    <a href="#" onclick="snsimg(-200)"><img src="images/s_left.png" alt="이전"></a>
+                </span>
+                <ul class="snsimg">
+                    <li><a href="#"><img src="images/sns01.jpg" alt="얼리버드 티켓 오픈"/></a></li>
+                    <li><a href="#"><img src="images/sns05.jpg" alt="AOMG 대거 출연"/></a></li>
+                    <li><a href="#"><img src="images/sns03.jpg" alt="라인업 오픈 D-3"/></a></li>
+                    <li><a href="#"><img src="images/sns04.jpg" alt="2018.12.28 라인업 2차 공개"/></a></li>
+                    <li><a href="#"><img src="images/sns02.jpg" alt="커밍 순 힙페스타"/></a></li>
+                    <li><a href="#"><img src="images/sns06.jpg" alt="힙페스타 서포터즈 모집"/></a></li>                    
+                </ul>
+                <ul class="snsimg">                    
+                    <li><a href="#"><img src="images/sns06.jpg" alt="힙페스타 서포터즈 모집"/></a></li>
+                    <li><a href="#"><img src="images/sns02.jpg" alt="커밍 순 힙페스타"/></a></li>
+                    <li><a href="#"><img src="images/sns04.jpg" alt="2018.12.28 라인업 2차 공개"/></a></li>
+                    <li><a href="#"><img src="images/sns03.jpg" alt="라인업 오픈 D-3"/></a></li>
+                    <li><a href="#"><img src="images/sns05.jpg" alt="AOMG 대거 출연"/></a></li>
+                    <li><a href="#"><img src="images/sns01.jpg" alt="얼리버드 티켓 오픈"/></a></li>
+                </ul>
+                <span class="Bscroll">
+                    <a href="#" onclick="snsimg(200)"><img src="images/s_right.png" alt="다음"></a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sponsor" class="basic hidden">
+        <div class="concenter sponsor">
+            <h2 class="h2menu">Sponsor</h2>
+            <ul>
+                <li><a href=""><img src="images/spon01.png" alt="스폰서_멜론" /></a></li>
+                <li><a href=""><img src="images/spon02.png" alt="스폰서_하이네켄" /></a></li>
+                <li><a href=""><img src="images/spon03.png" alt="스폰서_이니스프리" /></a></li>
+                <li><a href=""><img src="images/spon04.png" alt="스폰서_AOMG" /></a></li>
+                <li><a href=""><img src="images/spon05.png" alt="스폰서_아디다스" /></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+﻿@charset "utf-8";
+
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR');
+
+
+html * {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: "Noto Sans KR","nanum gothic",sans-serif;
+    font-size:1em;
+}
+/* http://www.google.com/fonts/earlyaccess */
+
+
+@media all and (max-width: 700px)  {  body  { font-size:0.8em;  } }
+@media all and (max-width: 1000px)  {  body  { font-size:0.9em;  } }
+
+
+img {
+    border: 0;
+    max-width:100%;
+    height:auto;
+}
+
+ul, ol {
+    list-style: none;
+    
+}
+
+li {
+    display:inline;
+}
+
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    margin: 0;
+    padding: 0;
+
+}
+
+    a:hover {
+        color: #0b5e88;
+        margin: 0;
+        padding: 0;
+    }
+
+body, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, ol, p, button, input, form {
+    margin: 0;
+    padding: 0
+}
+
+h1, h2, h3, h4, h5, h6{    
+    letter-spacing: 1px;
+}
+
+input, textarea, select, option {
+    outline: 0;
+}
+
+button:focus { outline: none; }
+
+.clearfix {
+	overflow:hidden;
+    /* zoom: 1; IE-7;*/
+}
+    /* float된 부모에게 클래스 지정 */
+    .clearfix:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+.hidden {
+    display:none;
+    /*position: absolute;
+    left: -10000000em;
+    top: -10000000em;*/
+}
+
